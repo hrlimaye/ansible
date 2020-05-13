@@ -1,5 +1,4 @@
-# ansible
-ansible playbooks
+# ansible roles and playbooks
 
 Below roles are created and used in playbooks.
 
