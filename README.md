@@ -43,5 +43,12 @@ Below Playbooks are created and some playbooks need to have specific inventory f
 #Requirement:
 All playbooks are specific to work for only centos 7.
 
+#System Requirement:
+You need to have ansible installed on your machine.
+
+#How to run
+ansible-playbook PLAYBOOK_NAME -i INVENTORY_NAME
+ansible-playbook playbooks/elasticsearch/elasticsearch-playbook.yaml -i host_file
+
 #Future Releases:
 Same playbooks will be updated to work for debian based system and centos 6 and 8 as well.
